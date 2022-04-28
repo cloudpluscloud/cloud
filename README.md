@@ -12,6 +12,40 @@ From the [2022 Code+ Project Proposals](https://codeplus.duke.edu/projects/demys
 
 ## Background Reading
 
+Disclosure: Your illustrious team leads haven't read/watched these resources in their entirety, but they seem like good introductions. There will certainly be a lot of repetition, so feel free to pick and choose those that resonate most with your learning style. PLEASE don't worry if you don't understand everything yet! Feel free to make a note of the topics you didn't understand but wish you did, and we can be sure to cover everything before the summer is over.
+
+#### General Overviews
+
+[Quick cloud overview with two embedded videos](https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing)
+
+[Cloud overview from IBM](https://www.ibm.com/cloud/learn/cloud-computing)
+
+[Everything you need to know about the Cloud](https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/)
+
+A related topic is Containerization and Virtual Machines (VMs). [Here is a good introduction to these concepts](https://medium.com/geekculture/introduction-to-containers-basics-of-containerization-bb60503df931).
+
+Here is an introduction to a commonly-used container software, [Docker](https://turbofuture.com/computers/introductiontodocker).
+
+#### Vendor-Specific
+
+Here is an introduction to [Google Cloud](https://www.youtube.com/watch?v=IeMYQ-qJeK4) services using a web application as an example use case. It also includes a nice introduction of everything that goes into hosting a web application, but definitely goes into a LOT of details that might feel overwhelming.
+
+[Microsoft Azure for Researchers](https://docs.microsoft.com/en-us/learn/paths/researcher-introduction-to-cloud-computing/)
+
+[Amazon Web Services (AWS) video overview](https://www.youtube.com/watch?v=B08iQQhXG1Y)
+
+Duke has it's own cloud service called [Virtual Computing Manager](https://vcm.duke.edu/help)
+
+#### Longer Courses
+
+[LinkedIn Learning Path: Understanding Cloud Fundamentals](https://www.linkedin.com/learning/paths/understanding-cloud-fundamentals?u=77842946)
+
+#### Hands-On Tutorials
+
+AWS has some [tutorials](https://docs.aws.amazon.com/index.html#tutorials) that you can do by using their "Free Tier" account. You'll need to set up an AWS account, but won't need to pay anything.
+
+[Google Cloud Tutorials](https://inthecloud.withgoogle.com/cloud-learning-paths-22/register.html)
+
 
 ---
 # Template for Future README sections
