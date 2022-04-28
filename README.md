@@ -6,9 +6,9 @@ Resources for Code+ 2022 project "Demystifying Cloud Computing"
 
 From the [2022 Code+ Project Proposals](https://codeplus.duke.edu/projects/demystifying-cloud-computing-duke): 
 
-"A team of students will work with Duke’s Office of Information Technology, Co-Lab, Duke Learning Innovations (DLI), faculty, and academic units across Duke to investigate and improve the way in which virtual and cloud computing environments are utilized. 
-
-Students will research the landscape of environments such as Duke's own virtual computing manager (VCM), Google Cloud Platform (GCP), Amazon Web Services (AWS), and Microsoft Azure. They will work with stakeholders across Duke to conduct requirements gathering, research what products are in use at Duke and the existing use cases and conduct a gap analysis. The students will develop functional processes and materials to educate others on best practices and common pitfalls. The team will build out development environments in virtual and cloud environments based on requirements identified by Duke faculty and staff. This project will lay the groundwork for infusing virtual and cloud computing in Duke’s infrastructure and ecosystem." 
+>A team of students will work with Duke’s Office of Information Technology, Co-Lab, Duke Learning Innovations (DLI), faculty, and academic units across Duke to investigate and improve the way in which virtual and cloud computing environments are utilized. 
+>
+>Students will research the landscape of environments such as Duke's own virtual computing manager (VCM), Google Cloud Platform (GCP), Amazon Web Services (AWS), and Microsoft Azure. They will work with stakeholders across Duke to conduct requirements gathering, research what products are in use at Duke and the existing use cases and conduct a gap analysis. The students will develop functional processes and materials to educate others on best practices and common pitfalls. The team will build out development environments in virtual and cloud environments based on requirements identified by Duke faculty and staff. This project will lay the groundwork for infusing virtual and cloud computing in Duke’s infrastructure and ecosystem." 
 
 ## Background Reading
 
