@@ -46,6 +46,33 @@ AWS has some [tutorials](https://docs.aws.amazon.com/index.html#tutorials) that 
 
 [Google Cloud Tutorials](https://inthecloud.withgoogle.com/cloud-learning-paths-22/register.html)
 
+## Proposed Organizational Tools
+
+* GitLab: code and documents
+* Teams: chat
+* Kanban on Teams: task boards
+* Wiki on Teams: daily journal/summaries
+
+## Expectations
+
+* Daily Standups
+    * Quickly answer three questions:
+        * What did I work on yesterday?
+        * What am I working on today?
+        * What issues are blocking me?
+    * Vicki as [Scrum Master](https://www.atlassian.com/agile/scrum/scrum-master)
+
+* End-of-day Written Summaries
+    * Answer the three questions you will discuss at the next morning's standup (see above)
+    * Can go into more detail than you will at the standup if needed
+    * Read each other's written summaries before standup; be prepared with questions
+
+* End-of-week Reflections
+    * Demo
+    * Brief discussion of week: what went well, what can improve
+    * Entire team practices delivering 30-60 second project pitch
+
+* Others TBD
 
 ---
 # Template for Future README sections
