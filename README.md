@@ -2,6 +2,8 @@
 
 Resources for Code+ 2022 project "Demystifying Cloud Computing"
 
+[[_TOC_]]
+
 ## Description
 
 From the [2022 Code+ Project Proposals](https://codeplus.duke.edu/projects/demystifying-cloud-computing-duke): 
