@@ -1,0 +1,3 @@
+Iaas Paas Saas
+Examples: Azure, IBM, Beanstalk, LightBeam, Google cloud platform
+
