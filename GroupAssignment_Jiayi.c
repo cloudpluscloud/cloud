@@ -26,6 +26,7 @@ int main(int argc, char **argv){
         }
     }
 
+    printf("\n");
     printf("Here are your groups for the week. Bona fortuna!\n");
     printf("Group 1: ");
     printf("%s, %s\n", a[random1], a[random2]);
