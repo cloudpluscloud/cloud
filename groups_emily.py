@@ -16,3 +16,5 @@ for i in range(0,3):
 
 print(group1)
 print(lines)
+
+f.close()
