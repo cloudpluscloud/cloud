@@ -1,0 +1,14 @@
+install-python:
+pip install -r requirements.txt
+
+install-node:
+npm install
+
+format-python and format-js:
+Black *.py
+Prettier *.js
+
+lint:
+pylint —disable = R,C app.py
+
+all: install-python install-node format-python format-is lint
