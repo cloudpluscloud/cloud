@@ -4,9 +4,12 @@ pip install -r requirements.txt
 install-node:
 npm install
 
+test:
+	PYTHONPATH=./src pytest
+
 format-python and format-js:
-Black *.py
-Prettier *.js
+black *.py
+prettier *.js
 
 lint:
 pylint —disable = R,C app.py
