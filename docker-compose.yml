@@ -1,0 +1,19 @@
+version: "3"
+services:
+
+  backend:
+    build: ./backend
+    # command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+    volumes:
+      - ./backend:/app/backend
+    # depends_on:
+    #   - database
+  
+  frontend:
+    build: ./week2-app
+    volumes:
+      - ./frontend:/app/week2-app
+    depends_on:
+      - backend
+    ports:
+      - 80:80
