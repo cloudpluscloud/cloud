@@ -3,11 +3,13 @@ import {Alert} from "react-bootstrap"
 
 class AlertComp extends React.Component {
     render() {
-        <Alert variant="primary" style={{ width: "42rem" }}>
-            <Alert.Heading>
-                Hello! Welcome to Cloud+!
-            </Alert.Heading>
-        </Alert>
+        return (
+            <Alert variant="primary" style={{ width: "42rem" }}>
+                <Alert.Heading>
+                    Hello! Welcome to Cloud+!
+                </Alert.Heading>
+            </Alert>
+        )
     }
 }
 
