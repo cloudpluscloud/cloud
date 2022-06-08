@@ -22,7 +22,11 @@ class Navigationbar extends React.Component {
                                 <NavDropdown.Item href="#services/3.1">SAAS</NavDropdown.Item>
                                 <NavDropdown.Item href="#services/3.2">PAAS</NavDropdown.Item>
                                 <NavDropdown.Item href="#services/3.3">IAAS</NavDropdown.Item>
+                                {/* lol can insert fontawesome icon here */}
                             </NavDropdown>
+                        </Nav>
+                        <Nav>
+                        <Nav.Link href="#LoginPage">Login</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
