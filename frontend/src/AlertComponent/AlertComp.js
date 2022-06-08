@@ -2,7 +2,7 @@ import React from "react"
 import {Alert} from "react-bootstrap"
 
 class AlertComp extends React.Component {
-    return () {
+    render() {
         <Alert variant="primary" style={{ width: "42rem" }}>
             <Alert.Heading>
                 Hello! Welcome to Cloud+!
