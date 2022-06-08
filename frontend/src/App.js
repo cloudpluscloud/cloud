@@ -2,8 +2,6 @@ import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
 import AlertComp from "./AlertComponent/AlertComp.js"
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   return (
