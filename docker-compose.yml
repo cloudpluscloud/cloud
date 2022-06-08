@@ -11,6 +11,19 @@ services:
     ports:
       - 8000:8000
 
+  postgres:
+    image: 'postgres:latest'
+    restart: always
+    environment:
+      - DB_NAME=${DB_NAME}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_USER=${DB_USER}
+    ports:
+      - 5438:5432
+    volumes:
+      - '/etc/postgresql' #'/var/log/postgresql', '/var/lib/postgresql']
+
   
   frontend:
     build:
@@ -21,3 +34,8 @@ services:
       - ./frontend:/app/frontend
     ports:
       - 3000:3000
+
+# volumes:
+#   postgres:
+#     driver: local
+  
