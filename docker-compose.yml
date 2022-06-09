@@ -1,41 +1,39 @@
 version: "3"
 services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
 
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+    command: [ "python", "manage.py", "runserver", "0.0.0.0:8000" ]
+    environment:
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - SECRET_KEY=${SECRET_KEY}
     volumes:
       - ./backend:/app/backend
     ports:
       - 8000:8000
+    depends_on:
+      - db
 
-  postgres:
-    image: 'postgres:latest'
-    restart: always
-    environment:
-      - DB_NAME=${DB_NAME}
-      - DB_HOST=${DB_HOST}
-      - DB_PASSWORD=${DB_PASSWORD}
-      - DB_USER=${DB_USER}
-    ports:
-      - 5438:5432
-    volumes:
-      - '/etc/postgresql' #'/var/log/postgresql', '/var/lib/postgresql']
-
-  
   frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    command : ["npm","start"]
+    command: [ "npm", "start" ]
     volumes:
       - ./frontend:/app/frontend
     ports:
       - 3000:3000
-
-# volumes:
-#   postgres:
-#     driver: local
-  
