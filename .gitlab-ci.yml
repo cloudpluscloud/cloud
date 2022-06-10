@@ -11,7 +11,8 @@ docker-build:
     - docker version
     - docker-compose version
   script:
-    - docker login cloudplus.azurecr.io
+    # - docker login cloudplus.azurecr.io
+    - az acr login --name cloudplus --tenant $TENANT_ID
     - docker-compose build
     - docker-compose push
   
