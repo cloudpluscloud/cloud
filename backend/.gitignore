@@ -129,4 +129,4 @@ static/drf-yasg
 static/rest_framework
 
 .env
-djenv/
+#djenv/
