@@ -29,6 +29,13 @@ def ytdl(link: str):
     # result of success
     print(yt.title + " has been successfully downloaded in the current directory.")
 
+@app.command()
+def list():
+    for x in os.listdir():
+        if x.endswith(".mp3"):
+            # Prints only mp3 files present in directory
+            print(x)
+
 if __name__ == "__main__":
     app()
 
