@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
 import AlertComp from "./AlertComponent/AlertComp.js"
+import UploadImageToS3WithNativeSdk from "./BucketComponent/UploadImageToS3WithNativeSdk";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         >
           Hello World
         </a>
+      <UploadImageToS3WithNativeSdk />
       </header>
     </div>
   );
