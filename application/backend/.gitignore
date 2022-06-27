@@ -121,6 +121,7 @@ cython_debug/
 .vscode/
 
 django
+.env
 
 dump.rdb
 
