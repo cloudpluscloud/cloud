@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
 import AlertComp from "./AlertComponent/AlertComp.js"
+import Upload from "./UploadComponent/Upload.js"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           Hello World
         </a>
       </header>
+      <Upload />
     </div>
   );
 }
