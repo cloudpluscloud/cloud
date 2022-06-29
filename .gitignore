@@ -1,2 +1,4 @@
 .vscode/
 .DS_Store
+react-form-data/tutorial-django-react/**/*
+react-form-data/frontend/node_modules/**/*
