@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
+import UploadImageToS3WithNativeSdk from './UploadImageToS3WithNativeSdk.jsx'
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,8 +20,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Hello World
+          <UploadImageToS3WithNativeSdk />
+         
         </a>
       </header>
+      
     </div>
   );
 }
