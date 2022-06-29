@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
-import AlertComp from "./AlertComponent/AlertComp.js"
-import Upload from "./UploadComponent/Upload.js"
+import AlertComp from "./Components/AlertComp.js"
+import Upload from "./Components/Upload.js"
 
 function App() {
   return (
