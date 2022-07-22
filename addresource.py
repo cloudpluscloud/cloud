@@ -13,16 +13,40 @@ file.close()
 
 print(store)
 resourceObj = store["resources"]
+paramObj = store["parameters"]
 
 print(resourceObj)
+print(paramObj)
 
+#adds storage account resource
+paramObj.update({
+    "storageName": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 24
+    },
+    "storageSKU": {
+      "type": "string",
+      "defaultValue": "Standard_LRS",
+      "allowedValues": [
+        "Standard_LRS",
+        "Standard_GRS",
+        "Standard_RAGRS",
+        "Standard_ZRS",
+        "Premium_LRS",
+        "Premium_ZRS",
+        "Standard_GZRS",
+        "Standard_RAGZRS"
+      ]
+    }
+})
 resourceObj.append({
    "type": "Microsoft.Storage/storageAccounts",
       "apiVersion": "2021-09-01",
-      "name": "{provide-unique-name}",
+      "name": "[parameters('storageName')]",
       "location": "eastus",
       "sku": {
-        "name": "Standard_LRS"
+        "name": "[parameters('storageSKU')]"
       },
       "kind": "StorageV2",
       "properties": {
@@ -31,6 +55,7 @@ resourceObj.append({
 })
 
 store["resources"] = resourceObj
+store["parameters"] = paramObj
 
 with open("personalizedeploy.json", 'w') as json_file:
     json.dump(store, json_file, 
