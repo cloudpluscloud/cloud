@@ -18,7 +18,7 @@ outputObj = store["outputs"]
 # print(outputObj)
 
 resourceList = ["StorageAccount", "ContainerRegistry", "PostgreSQLFlexible", "Kubernetes"]
-servicesList =[]
+servicesList = []
 
 
 service = ""
