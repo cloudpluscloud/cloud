@@ -6,7 +6,7 @@ store = json.loads(file.read())
 file.close()
 
 
-print(store)
+# print(store)
 resourceObj = store["resources"]
 paramObj = store["parameters"]
 varObj = store["variables"]
@@ -17,14 +17,14 @@ outputObj = store["outputs"]
 # print(varObj)
 # print(outputObj)
 
-resourceList = ["StorageAccount", "ContainerRegistry", "PostgreSQLFlexible", "Kubernetes"]
+resourceList = ["StorageAccount", "ContainerRegistry", "PostgreSQLFlexible", "Kubernetes", "Done"]
 servicesList = []
 
 
 service = ""
 
 while(service != "Done"):
-    print("Options: Done, ", end='')
+    print("Options: ", end='')
     print(', '.join(resourceList))
     service = input("Pick a Service: ")
 
@@ -155,7 +155,7 @@ while(service != "Done"):
         },
         "dbInstanceType": {
             "type": "string",
-            "defaultValue": "Standard_D4ds_v4"
+            "defaultValue": "Standard_D2ds_v4"
         },
         "haMode": {
             "type": "string",
